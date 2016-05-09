@@ -1,0 +1,206 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 85%;
+    
+}
+
+hmm {
+    font-family: 'Alex Brush', cursive;
+    font-size: 132px; 
+    z-index: 20;
+}
+
+.navbar {
+   width: 100%; 
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    width: 100%;
+}
+
+/*static|absolute|fixed|relative|initial|inherit*/
+.carousel-caption h2 {
+    position: relative;
+    padding-left: 200px;
+    font-family: 'Alex Brush', cursive; 
+    font-size: 132px; 
+    z-index: 20;
+
+}
+
+
+.small-guitar {
+    background-position: center;
+    background-size: contain;
+    background-size: auto
+}
+
+
+/*.banner {
+    position: relative;
+    width: 400px;
+    height: 400px;
+
+}*/
+
+#les-paul {
+    position: relative;
+    font-family: 'Lobster', cursive;
+    font-size: 180px; 
+    text-shadow: 4px 4px plum;
+    padding-bottom: 200px;
+    font-weight: 10;
+    z-index: 10;
+}
+
+#freshman {
+    text-shadow: 4px 4px #000;
+    font-family: 'Alex Brush', cursive;
+}
+
+#prs {
+    text-shadow: 4px 4px #38eeff;
+    font-family: 'Alex Brush', cursive;
+}
+
+#aboutart {
+        font-size: 40px;
+        text-shadow: 4px 4px plum;
+        font-family: 'Alex Brush', cursive;
+        font-weight: 10;
+        z-index: 10;
+}
+
+#aboutart span {
+        font-size: 24px;
+        font-family: 'Alex Brush', cursive;
+}
+
+.carousel-inner {
+    background-position: center;
+    background-size: cover; 
+}
+
+header.carousel .fill {
+    /*margin-top: 20px;*/
+    height: 100%;
+    
+    background-position: center;
+    background-size: cover; 
+}
+
+.page-header {
+    text-align: center;
+    font-family: 'Alex Brush', cursive; 
+    font-size: 48px;    
+}
+
+#head {
+    font-size: 60px;
+    text-shadow: 4px 4px #38eeff;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 20;
+    z-index: 10;
+}
+
+.curly {
+    font-size: 32px;
+    font-family: 'Alex Brush', cursive; 
+}
+
+#name_main {
+    text-align: center;
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+    width: 480px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 100%;
+    width: 100%;
+    
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+
+
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+navbar-fixed-top {
+    width: 80%;
+}
+
+@media(max-width:1400px) {
+    .img-portfolio {
+        width: 400px;
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 80%;
+
+    }
+}
