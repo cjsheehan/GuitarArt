@@ -80,6 +80,27 @@ body {
         z-index: 10;
 }
 
+#aboutarts {
+        font-size: 30px;
+        text-shadow: 2px 2px #38eeff;
+        font-family: 'Alex Brush', cursive;
+        font-weight: 10;
+        z-index: 10;
+}
+
+#artbtn {
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+#aboutartalt {
+        font-size: 40px;
+        text-shadow: 4px 4px #38eeff;
+        font-family: 'Alex Brush', cursive;
+        font-weight: 10;
+        z-index: 10;
+}
+
 #aboutart span {
         font-size: 24px;
         font-family: 'Alex Brush', cursive;
